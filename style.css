@@ -1,12 +1,12 @@
 body {
     font-family: 'helvetica';
     font-size: 16px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 h1 {
     font-size: 24;
-    letter-spacing: 6px;
+    letter-spacing: 7px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -24,7 +24,7 @@ h3 {
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 1px;
+    margin-top: 5px;
 }
 header {
     text-align: center;
@@ -41,6 +41,7 @@ i {
 
 p {
     margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 hr {
@@ -55,4 +56,8 @@ h1, h2, h3 {
 }
 #mainLeft {
     border-right: 1px solid lightgray;
+}
+
+li {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
